@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: chatapp-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: chatapp
+  template:
+    metadata:
+      labels:
+        app: chatapp
+    spec:
+      containers:
+      - name: chatapp-container
+        image: sabby102030/chatapp:latest
+        ports:
+        - containerPort: 5000
+        env:
+        - name: NAME
+          value: "SmolLM-360M"
