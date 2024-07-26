@@ -10,6 +10,10 @@ This repository contains the code for a Language Model (LLM) application deploye
 - Kubernetes Orchestration: Deployed on a GKE cluster, ensuring scalability and reliability.
 - Secure API Access: Integrated with OpenAI's API for additional language model support.
 
+#Model
+
+- Url: https://huggingface.co/HuggingFaceTB/SmolLM-360M/tree/main
+
 
 ## Architecture
 
