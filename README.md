@@ -33,7 +33,7 @@ Deploying on Google Kubernetes Engine (GKE)
 
 1. Clone the Repository:
 ```bash
-git clone https://github.com/sabby102030/llm-app.git
+git clone https://github.com/sabby102030/llmproject.git
 cd llm-app
 ```
 2. Build the Docker Image:
@@ -60,7 +60,7 @@ Minikube start
 ```
 2. Clone the Repository:
 ```bash
-git clone https://github.com/sabby102030/llm-app.git
+git clone https://github.com/sabby102030/llmproject.git
 cd llm-app
 ```
 3. Build the Docker Image in Minikube:
